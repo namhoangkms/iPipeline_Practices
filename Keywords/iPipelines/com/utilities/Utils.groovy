@@ -1,4 +1,4 @@
-package iPipelines.com.utilities
+package iPipelines.com.utilities;
 
 public class Utils {
 	/**
