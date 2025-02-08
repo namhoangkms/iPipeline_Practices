@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>A brand should be created successfully with all valid data input</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bb7c38c4-c5a2-42d3-912e-3705a82db54c</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>ca61ece7-bc70-47c6-8848-5591aae12672</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/ListBrands</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>ca61ece7-bc70-47c6-8848-5591aae12672</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>brandName</value>
+      <variableId>b48c503f-575d-4848-a85a-af18892e271c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>ca61ece7-bc70-47c6-8848-5591aae12672</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>slugPrefix</value>
+      <variableId>6de63b31-3a78-4b68-be63-0d7d0e9374d1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b48c503f-575d-4848-a85a-af18892e271c</id>
+      <masked>false</masked>
+      <name>brandName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6de63b31-3a78-4b68-be63-0d7d0e9374d1</id>
+      <masked>false</masked>
+      <name>slugPrefix</name>
+   </variable>
+</TestCaseEntity>
